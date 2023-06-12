@@ -58,5 +58,7 @@ curl --location --request GET 'http://localhost:3000/v1/api/order/1' \
 --header 'x-api-key: kWF2Ae36hIRpaRKCrZToQyOo4jjw5BD3VGScLF9LmtdPY3EoplGSiJ7ubjI3eXBJ'
 ```
 
+#### Note
+Password for the postgres is hardcoded, but in general these should come from secrets. 
 
 
